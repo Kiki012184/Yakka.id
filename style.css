@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans&display=swap');
+:root {
+  --YKCL-01: rgb(247, 247, 255); /* White #f7f7ff */
+  --YKCL-02: rgb(77, 139, 49); /*Dark Green #4d8b31 */
+  --YKCL-03: rgb(221, 232, 185); /*Light Green #dde8b9 */
+  --YKCL-04: rgb(24, 22, 23); /* Black 1 #181617 */
+  --YKCL-05: rgb(45, 43, 44); /*Black 2 #131117 */
+  --YKCL-06: rgb(255, 153, 00); /* Digital Fox orange #ff8427 */
+}
+img,
+svg {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Nunito Sans",Sans-Serif;
+  font-weight: bold;
+  border-bottom: 1px solid var(--YKCL-05);
+}
+p {
+  font-family: "Nunito",Sans-Serif;
+}
+.ykbody {
+  background-color: var(--YKCL-04);
+  color: var(--YKCL-01);
+}
+.logoyk-bento {
+  background-color: var(--YKCL-02);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
+  border-radius: 0.5rem;
+}
+.logoyk-bento img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-width: 50%;
+  image-rendering: pixelated;
+}
+.descyk-bento {
+  background-color: transparent;
+  border: 1px solid var(--YKCL-05);
+  min-height: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.descyk-bento p {
+  text-align: justify;
+  overflow-y: scroll;
+}
+.contentyk-bento {
+  border: 1px solid var(--YKCL-05);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+.contentyk-bento img {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+.contentyk-bento p {
+  
+}
+.contentyk-bento h6 {
+  border: none;
+  color: var(--YKCL-06);
+  margin-bottom: 0.25rem;
+}
+.contentyk-bento .btn {
+  border: 1px solid var(--YKCL-01);
+  color: var(--YKCL-01);
+  width: 100%;
+  font-weight: bold;
+  font-family: "Nunito",Sans-Serif;
+}
+.contentyk-bento .btn:hover {
+  border: 1px solid var(--YKCL-06);
+  color: var(--YKCL-01);
+  background-color: var(--YKCL-02);
+}
+.contentyk-bento .bi {
+  color: var(--YKCL-06);
+}
+.footeryk-bento {
+  padding: 1rem 0.5rem;
+  background-color: var(--YKCL-02);
+  color: var(--YKCL-01);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border: 1px solid rgba(247,247,255,0.25);
+  border-bottom: none;
+}
+.footeryk-bento img {
+  width: 2em !important;
+}
+.footeryk-bento h5 {
+  border: none;
+}
+.footeryk-bento .btn {
+  color: var(--YKCL-06);
+  border: 1px solid var(--YKCL-01);
+}
+
+.txtorgyk {
+  color: var(--YKCL-06);
+}
